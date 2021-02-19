@@ -1,5 +1,10 @@
 import React from 'react';
+import { Typography } from '@material-ui/core';
 
-const Title: React.FC = () => <h1>Hello TypeScript!</h1>;
+const Title: React.FC = () => (
+  <Typography variant="h2" style={{ textAlign: 'center' }}>
+    Filmek
+  </Typography>
+);
 
 export default Title;
